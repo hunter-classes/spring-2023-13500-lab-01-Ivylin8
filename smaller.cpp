@@ -10,10 +10,10 @@ cout << "Enter two numbers" << endl;
 cin >> x >> y;
 
 if (x > y)
-cout << y << "is smaller." << endl;
+cout << y << " is smaller." << endl;
 
 if (y > x)
-cout << x << "is smaller." << endl;
+cout << x << " is smaller." << endl;
   
 return 0;  
 }
