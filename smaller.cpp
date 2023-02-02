@@ -5,19 +5,18 @@
 //Prints out the smallest number the users input
 
 #include <iostream> //compiler 
-using namespace std;
 
 int main() 
 {
 int x, y; //set variables
-cout << "Enter two numbers" << endl; //show output
-cin >> x >> y;
+std::cout << "Enter two numbers: "; //show output
+std::cin >> x >> y;
 //compare the values 
 if (x > y)
-cout << y << " is smaller." << endl;
+std::cout << y << " is smaller.";
 
 if (y > x)
-cout << x << " is smaller." << endl;
+std::cout << x << " is smaller.";
   
 return 0;  
 }

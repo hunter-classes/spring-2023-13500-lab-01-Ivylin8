@@ -5,17 +5,16 @@
 //Programs askes user to input month and year and outputs the number of days in the month
 
 #include <iostream>
-using namespace std;
 
 int main() 
 {
   int month = 0;
   int year = 0;
   int days;
-  cout << "Input a month in numbers: ";
-  cin >> month;
-  cout << "Input a year: ";
-  cin >> year;
+  std::cout << "Input a month in numbers: ";
+  std::cin >> month;
+  std::cout << "Input a year: ";
+  std::cin >> year;
 
   if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
     days = 31;
@@ -31,9 +30,7 @@ int main()
     return 28;
   }
 
-  cout << "There is " << days << " days in the month."<<endl;
+  std::cout << "There is " << days << " days in the month.";
   
 return 0;
-  
-    
   }
