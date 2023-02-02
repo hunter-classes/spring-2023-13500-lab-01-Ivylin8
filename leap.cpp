@@ -1,4 +1,8 @@
-//Task C. A leap year or a common year?
+//Task C. A leap year or a common year
+//Last name: Lin
+//First name: Ivy
+//Github username: Ivylin8
+// Program askes user for the year and checks if its a leap year
 
 #include <iostream>
 

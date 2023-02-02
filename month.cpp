@@ -1,3 +1,9 @@
+//Task D. Number of days in a given month
+//Last name: Lin
+//First name: Ivy
+//Github username: Ivylin8
+//Programs askes user to input month and year and outputs the number of days in the month
+
 #include <iostream>
 using namespace std;
 

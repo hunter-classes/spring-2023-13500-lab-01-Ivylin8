@@ -1,4 +1,7 @@
 //Task B. Find the smaller of three integers.
+//Last name: Lin
+//First name: Ivy
+//Github username: Ivylin8
 
 #include <iostream>
 
